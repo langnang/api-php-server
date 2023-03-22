@@ -13,8 +13,8 @@ jobs:
       - name: 🚚 Get latest code
         uses: actions/checkout@v2
 
-      - name: Install composer dependencies
-        # run: composer install
+      # - name: Install composer dependencies
+      # run: composer install
 
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
